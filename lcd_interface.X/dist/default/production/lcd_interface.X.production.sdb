@@ -1,0 +1,109 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F876A ]
+[d frameptr 0 ]
+"10 /opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.45/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"32 /home/quest/Desktop/akhil/lcd_interface.X/lcd_interface.c
+[v _lcd_enable_pulse lcd_enable_pulse `(v  1 e 1 0 ]
+"38
+[v _lcd_send_nibble lcd_send_nibble `(v  1 e 1 0 ]
+"43
+[v _lcd_send_byte lcd_send_byte `(v  1 e 1 0 ]
+"48
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+"54
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+"60
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"70
+[v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
+"82
+[v _lcd_write_string lcd_write_string `(v  1 e 1 0 ]
+"89
+[v _main main `(v  1 e 1 0 ]
+"278 /opt/microchip/mplabx/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8/pic/include/proc/pic16f876a.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"1337
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"2465
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2468
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"2471
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"89 /home/quest/Desktop/akhil/lcd_interface.X/lcd_interface.c
+[v _main main `(v  1 e 1 0 ]
+{
+"101
+} 0
+"82
+[v _lcd_write_string lcd_write_string `(v  1 e 1 0 ]
+{
+[v lcd_write_string@str str `*.24uc  1 a 1 wreg ]
+[v lcd_write_string@str str `*.24uc  1 a 1 wreg ]
+[v lcd_write_string@str str `*.24uc  1 a 1 8 ]
+"87
+} 0
+"54
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v lcd_data@data data `uc  1 a 1 wreg ]
+[v lcd_data@data data `uc  1 a 1 wreg ]
+[v lcd_data@data data `uc  1 a 1 6 ]
+"58
+} 0
+"70
+[v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
+{
+[v lcd_set_cursor@row row `uc  1 a 1 wreg ]
+"71
+[v lcd_set_cursor@address address `uc  1 a 1 9 ]
+"70
+[v lcd_set_cursor@row row `uc  1 a 1 wreg ]
+[v lcd_set_cursor@col col `uc  1 p 1 7 ]
+"73
+[v lcd_set_cursor@row row `uc  1 a 1 8 ]
+"80
+} 0
+"60
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"68
+} 0
+"48
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+{
+[v lcd_command@command command `uc  1 a 1 wreg ]
+[v lcd_command@command command `uc  1 a 1 wreg ]
+[v lcd_command@command command `uc  1 a 1 6 ]
+"52
+} 0
+"43
+[v _lcd_send_byte lcd_send_byte `(v  1 e 1 0 ]
+{
+[v lcd_send_byte@data data `uc  1 a 1 wreg ]
+[v lcd_send_byte@data data `uc  1 a 1 wreg ]
+[v lcd_send_byte@data data `uc  1 a 1 5 ]
+"46
+} 0
+"38
+[v _lcd_send_nibble lcd_send_nibble `(v  1 e 1 0 ]
+{
+[v lcd_send_nibble@nibble nibble `uc  1 a 1 wreg ]
+[v lcd_send_nibble@nibble nibble `uc  1 a 1 wreg ]
+[v lcd_send_nibble@nibble nibble `uc  1 a 1 3 ]
+"41
+} 0
+"32
+[v _lcd_enable_pulse lcd_enable_pulse `(v  1 e 1 0 ]
+{
+"36
+} 0

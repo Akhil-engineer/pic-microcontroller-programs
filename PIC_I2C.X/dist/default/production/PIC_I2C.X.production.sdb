@@ -1,0 +1,331 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F876A ]
+[d frameptr 0 ]
+"193 /opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+[v _pad pad `(v  1 s 1 pad ]
+"1055
+[v _xtoa xtoa `(v  1 s 1 xtoa ]
+"1158
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"8 /opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 /opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 /opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 /opt/microchip/xc8/v2.45/pic/sources/c99/common/putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 /opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 /opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.45/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"22 /home/quest/Desktop/akhil/PIC_I2C.X/PIC_I2C.c
+[v _uart_init uart_init `(v  1 e 1 0 ]
+"30
+[v _uart_send uart_send `(v  1 e 1 0 ]
+"35
+[v _uart_string_send uart_string_send `(v  1 e 1 0 ]
+"42
+[v _i2c_init i2c_init `(v  1 e 1 0 ]
+"48
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+"55
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+"62
+[v _i2c_rstart i2c_rstart `(v  1 e 1 0 ]
+"69
+[v _i2c_ack i2c_ack `(v  1 e 1 0 ]
+"77
+[v _i2c_noack i2c_noack `(v  1 e 1 0 ]
+"85
+[v _i2c_send i2c_send `(i  1 e 2 0 ]
+"93
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+"101
+[v _main main `(v  1 e 1 0 ]
+"708 /opt/microchip/mplabx/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8/pic/include/proc/pic16f876a.h
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"715
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"864
+[v _RCSTA RCSTA `VEuc  1 e 1 @24 ]
+"959
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+[s S22 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1354
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES31  1 e 1 @135 ]
+"1598
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1605
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"1774
+[v _TXSTA TXSTA `VEuc  1 e 1 @152 ]
+"1855
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2153
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"2156
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2159
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @1166 ]
+"2402
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2498
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"2519
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"2534
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"2552
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"2732
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"153 /opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"18 /home/quest/Desktop/akhil/PIC_I2C.X/PIC_I2C.c
+[v _s s `i  1 e 2 0 ]
+[v _m m `i  1 e 2 0 ]
+[v _h h `i  1 e 2 0 ]
+"19
+[v _s1 s1 `[40]uc  1 e 40 0 ]
+"101
+[v _main main `(v  1 e 1 0 ]
+{
+"149
+} 0
+"35
+[v _uart_string_send uart_string_send `(v  1 e 1 0 ]
+{
+[v uart_string_send@data data `*.4uc  1 a 1 wreg ]
+[v uart_string_send@data data `*.4uc  1 a 1 wreg ]
+[v uart_string_send@data data `*.4uc  1 a 1 2 ]
+"40
+} 0
+"30
+[v _uart_send uart_send `(v  1 e 1 0 ]
+{
+[v uart_send@data data `uc  1 a 1 wreg ]
+[v uart_send@data data `uc  1 a 1 wreg ]
+[v uart_send@data data `uc  1 a 1 0 ]
+"33
+} 0
+"22
+[v _uart_init uart_init `(v  1 e 1 0 ]
+{
+"28
+} 0
+"9 /opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@s s `*.4uc  1 a 1 wreg ]
+[u S556 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+"13
+[s S559 _IO_FILE 11 `S556 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S559  1 a 11 43 ]
+"12
+[v sprintf@ap ap `[1]*.4v  1 a 1 41 ]
+"9
+[v sprintf@s s `*.4uc  1 a 1 wreg ]
+[v sprintf@fmt fmt `*.24DCuc  1 p 1 33 ]
+"15
+[v sprintf@s s `*.4uc  1 a 1 42 ]
+"23
+} 0
+"1817 /opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S591 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.4S591  1 a 1 wreg ]
+"1820
+[v vfprintf@cfmt cfmt `*.24uc  1 a 1 32 ]
+"1817
+[v vfprintf@fp fp `*.4S591  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.24DCuc  1 p 1 29 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 30 ]
+"1822
+"1817
+[v vfprintf@fp fp `*.4S591  1 a 1 31 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[s S591 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.4S591  1 a 1 wreg ]
+[u S610 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S610  1 a 4 22 ]
+"1179
+[v vfpfcnvrt@cp cp `*.24uc  1 a 1 28 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 26 ]
+"1177
+[v vfpfcnvrt@fp fp `*.4S591  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.24uc  1 p 1 18 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 19 ]
+"1201
+"1177
+[v vfpfcnvrt@fp fp `*.4S591  1 a 1 27 ]
+"1814
+} 0
+"1055
+[v _xtoa xtoa `(v  1 s 1 xtoa ]
+{
+[s S591 _IO_FILE 0 ]
+[v xtoa@fp fp `*.4S591  1 a 1 wreg ]
+"1063
+[v xtoa@i i `i  1 a 2 16 ]
+[v xtoa@w w `i  1 a 2 13 ]
+"1059
+[v xtoa@c c `uc  1 a 1 15 ]
+"1067
+[v xtoa@p p `a  1 a 1 12 ]
+"1055
+[v xtoa@fp fp `*.4S591  1 a 1 wreg ]
+[v xtoa@d d `ui  1 p 2 8 ]
+"1067
+"1055
+[v xtoa@fp fp `*.4S591  1 a 1 11 ]
+"1153
+} 0
+"193
+[v _pad pad `(v  1 s 1 pad ]
+{
+[s S591 _IO_FILE 0 ]
+[v pad@fp fp `*.4S591  1 a 1 wreg ]
+"195
+[v pad@i i `i  1 a 2 5 ]
+"193
+[v pad@fp fp `*.4S591  1 a 1 wreg ]
+[v pad@buf buf `*.4uc  1 p 1 11 ]
+[v pad@p p `i  1 p 2 12 ]
+"199
+"193
+[v pad@fp fp `*.4S591  1 a 1 7 ]
+"226
+} 0
+"8 /opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+[v fputs@s s `*.4DCuc  1 a 1 wreg ]
+"11
+[v fputs@i i `i  1 a 2 1 ]
+"10
+[v fputs@c c `uc  1 a 1 0 ]
+"8
+[v fputs@s s `*.4DCuc  1 a 1 wreg ]
+[u S556 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S559 _IO_FILE 11 `S556 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.4S559  1 p 1 8 ]
+"13
+[v fputs@s s `*.4DCuc  1 a 1 3 ]
+"19
+} 0
+"8 /opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S556 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S559 _IO_FILE 11 `S556 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.4S559  1 p 1 2 ]
+"24
+} 0
+"7 /opt/microchip/xc8/v2.45/pic/sources/c99/common/putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1158 /opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+{
+[v read_prec_or_width@fmt fmt `*.4*.24DCuc  1 a 1 wreg ]
+"1164
+[v read_prec_or_width@c c `uc  1 a 1 9 ]
+"1159
+[v read_prec_or_width@n n `i  1 a 2 10 ]
+"1158
+[v read_prec_or_width@fmt fmt `*.4*.24DCuc  1 a 1 wreg ]
+[v read_prec_or_width@ap ap `*.4[1]*.4v  1 p 1 6 ]
+[v read_prec_or_width@fmt fmt `*.4*.24DCuc  1 a 1 12 ]
+"1171
+} 0
+"15 /opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"55 /home/quest/Desktop/akhil/PIC_I2C.X/PIC_I2C.c
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+"60
+} 0
+"48
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+{
+"53
+} 0
+"85
+[v _i2c_send i2c_send `(i  1 e 2 0 ]
+{
+[v i2c_send@data data `uc  1 a 1 wreg ]
+[v i2c_send@data data `uc  1 a 1 wreg ]
+"87
+[v i2c_send@data data `uc  1 a 1 4 ]
+"91
+} 0
+"62
+[v _i2c_rstart i2c_rstart `(v  1 e 1 0 ]
+{
+"67
+} 0
+"93
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+{
+"99
+} 0
+"77
+[v _i2c_noack i2c_noack `(v  1 e 1 0 ]
+{
+"83
+} 0
+"42
+[v _i2c_init i2c_init `(v  1 e 1 0 ]
+{
+"46
+} 0
+"69
+[v _i2c_ack i2c_ack `(v  1 e 1 0 ]
+{
+"75
+} 0
