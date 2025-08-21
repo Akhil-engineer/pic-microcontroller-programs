@@ -1,0 +1,125 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F876A ]
+[d frameptr 0 ]
+"1 /home/quest/Desktop/akhil/pic_12c_lcd.X/i2c_header.h
+[v _i2c_init i2c_init `(v  1 e 1 0 ]
+"7
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+"44
+[v _i2c_send i2c_send `(i  1 e 2 0 ]
+"10 /opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.45/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"24 /home/quest/Desktop/akhil/pic_12c_lcd.X/pic_i2c_lcd.c
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+"47
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+"76
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"86
+[v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
+"98
+[v _lcd_write_string lcd_write_string `(v  1 e 1 0 ]
+"114
+[v _main main `(v  1 e 1 0 ]
+"708 /opt/microchip/mplabx/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8/pic/include/proc/pic16f876a.h
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"715
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1598
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1605
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2153
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"2156
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2159
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @1166 ]
+"2402
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2498
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"2519
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"2534
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"2552
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"20 /home/quest/Desktop/akhil/pic_12c_lcd.X/pic_i2c_lcd.c
+[v _PORTD PORTD `uc  1 e 1 0 ]
+"114
+[v _main main `(v  1 e 1 0 ]
+{
+"137
+} 0
+"98
+[v _lcd_write_string lcd_write_string `(v  1 e 1 0 ]
+{
+[v lcd_write_string@str str `*.24uc  1 a 1 wreg ]
+[v lcd_write_string@str str `*.24uc  1 a 1 wreg ]
+[v lcd_write_string@str str `*.24uc  1 a 1 9 ]
+"103
+} 0
+"47
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v lcd_data@data data `uc  1 a 1 wreg ]
+[v lcd_data@data data `uc  1 a 1 wreg ]
+"54
+[v lcd_data@data data `uc  1 a 1 7 ]
+"74
+} 0
+"86
+[v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
+{
+[v lcd_set_cursor@row row `uc  1 a 1 wreg ]
+"87
+[v lcd_set_cursor@address address `uc  1 a 1 10 ]
+"86
+[v lcd_set_cursor@row row `uc  1 a 1 wreg ]
+[v lcd_set_cursor@col col `uc  1 p 1 8 ]
+"89
+[v lcd_set_cursor@row row `uc  1 a 1 9 ]
+"96
+} 0
+"76
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"84
+} 0
+"24
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+{
+[v lcd_command@command command `uc  1 a 1 wreg ]
+[v lcd_command@command command `uc  1 a 1 wreg ]
+"26
+[v lcd_command@command command `uc  1 a 1 7 ]
+"45
+} 0
+"44 /home/quest/Desktop/akhil/pic_12c_lcd.X/i2c_header.h
+[v _i2c_send i2c_send `(i  1 e 2 0 ]
+{
+[v i2c_send@data data `uc  1 a 1 wreg ]
+[v i2c_send@data data `uc  1 a 1 wreg ]
+"46
+[v i2c_send@data data `uc  1 a 1 4 ]
+"50
+} 0
+"7
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+{
+"12
+} 0
+"1
+[v _i2c_init i2c_init `(v  1 e 1 0 ]
+{
+"5
+} 0
