@@ -1,0 +1,48 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F876A ]
+[d frameptr 0 ]
+"10 /opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.45/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"14 /home/quest/Desktop/akhil/PIC_SPI/pic_slave.X/pic_slave.c
+[v _main main `(v  1 e 1 0 ]
+"216 /opt/microchip/mplabx/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8/pic/include/proc/pic16f876a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"708
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"715
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"864
+[v _RCSTA RCSTA `VEuc  1 e 1 @24 ]
+"959
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1275
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1605
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"1774
+[v _TXSTA TXSTA `VEuc  1 e 1 @152 ]
+"1855
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2552
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"2696
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2699
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"2702
+[v _TRISC5 TRISC5 `VEb  1 e 0 @1085 ]
+"2711
+[v _TRMT TRMT `VEb  1 e 0 @1217 ]
+"14 /home/quest/Desktop/akhil/PIC_SPI/pic_slave.X/pic_slave.c
+[v _main main `(v  1 e 1 0 ]
+{
+"41
+} 0
